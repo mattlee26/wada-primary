@@ -1,0 +1,9 @@
+category,name,hex,text_hex,label_on_fill,source
+1,Navy,#202d85,#202d85,#ffffff,Theme
+2,Green,#58771e,#58771e,#ffffff,Theme
+3,Rust,#a93400,#a93400,#ffffff,Theme
+4,Orange,#ff8c00,#1f2328,#1f2328,Theme
+5,Artemesia Green,#65a98f,#3e8169,#1f2328,Wada 312
+6,Blue,#0d75ff,#006ef6,#1f2328,Wada 267 333
+7,Eosine Pink,#ff5ec4,#d12d9b,#1f2328,Wada 108 242
+8,Antwarp Blue,#008aa1,#008299,#1f2328,Wada 140

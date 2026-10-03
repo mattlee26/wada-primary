@@ -1,0 +1,27 @@
+title: Wada Primary
+version: 1.0.0
+quarto-required: ">=1.5.0"
+contributes:
+  formats:
+    revealjs:
+      theme: wada-primary.scss
+      filters:
+        - wada-primary.lua
+      include-after-body: wada-primary.html
+      # 16:9 canvas; layouts are positioned against these dimensions
+      width: 1600
+      height: 900
+      margin: 0
+      center: false
+      slide-number: c
+      show-slide-number: all
+      controls: false
+      progress: true
+      # No transitions by default. Set `transition: fade` in a deck's YAML,
+      # or add {data-transition="fade"} to a single slide's heading.
+      transition: none
+      background-transition: none
+      hash-type: number
+      # Used only if a deck sets `title:` and lets Quarto build the title slide
+      title-slide-attributes:
+        data-background-color: "#202d85"

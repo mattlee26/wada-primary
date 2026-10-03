@@ -1,0 +1,7 @@
+# Rendered output
+*.html
+*_files/
+*.pdf
+.quarto/
+__pycache__/
+.DS_Store
