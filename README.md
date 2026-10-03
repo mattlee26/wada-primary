@@ -169,6 +169,10 @@ The canvas is 1600 × 900. Layouts are positioned for that size, so leave `width
 - **Narrow screens:** on phones (under 435px wide), reveal.js shows the deck as a scrolling page. That is expected.
 - **Palette edits:** if you change the theme colors, keep the hex values in `wada-primary.scss`, `wada-primary.lua` and `wada_palette.py` in sync.
 
+## AI disclosure
+
+This theme was built with Claude (Opus 5.5), Anthropic's AI assistant, under the author's direction. That covers the stylesheet, the Lua filter, the scripts, the example figures and this documentation. The example figures use made-up data. Check rendered slides and exported PDFs before you present or share them.
+
 ## License
 
 [MIT](LICENSE). The license covers the theme, the template and the scripts.
