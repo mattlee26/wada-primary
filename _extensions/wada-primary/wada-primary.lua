@@ -108,6 +108,13 @@ local function Header(el)
     role = "divider"
   end
 
+  -- Number dividers here rather than with a CSS counter: reveal.js sets
+  -- display:none on slides outside its view distance, and hidden slides do
+  -- not increment counters, so every divider would read 01 when presenting
+  if role == "divider" and section_index > 0 then
+    el.attributes["data-divider-number"] = string.format("%02d", section_index)
+  end
+
   if not (el.attributes["background-color"] or el.attributes["data-background-color"]) then
     if not bg then
       local sc = options.section_colors

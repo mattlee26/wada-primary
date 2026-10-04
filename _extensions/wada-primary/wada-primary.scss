@@ -731,6 +731,12 @@ $content-slide: "section.slide:not(.cover):not(.divider):not(.closing):not(.take
     font-weight: 600;
     color: $divider-number-color;
   }
+
+  // Set by the Lua filter; the counter above is only a fallback, since
+  // reveal.js hides distant slides and hidden slides are not counted
+  .reveal .slides section.divider[data-divider-number]::before {
+    content: attr(data-divider-number);
+  }
 }
 
 .reveal .slides section.closing {
